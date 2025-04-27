@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: black;
+    position:relative;
+}
+/* quilt main body */
+.quilt {
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    height: 95vh;
+    width: 90vw;
+   top:15%;
+   left: 5%;
+   top: calc(15% + 2em);
+   overflow:hidden;
+    
+   border: 2em solid #00008B;
+    z-index: 1
+   
+}
+
+.redblock {
+    background-color: #003153;
+    position:absolute;
+    width: 1%;
+    height: 2%;
+    top: 0.5%;
+    left: 0.29%;
+    z-index: 4;
+    transform: rotate(-45deg);
+}
+.midline{
+    background-color: #bce4ff;
+    z-index: 2;
+    overflow:hidden;
+    position:absolute;
+    width: 100%;
+    height: 40%;
+    top:30%;
+    left:0;
+    box-shadow:
+    0 -16px 0 0 blue, /* top line */
+    0  16px 0 0 blue; /* bottom line */
+    
+}
+.brownbox{
+    background-color: #000080;
+    width:6%;
+    height:5%;
+    position:absolute;
+}
+.whitebox{
+    background-color: #00CCFF;
+    width:6%;
+    height:5%;
+    position:absolute;
+}
+.slidebox{
+    background-color: #6F00FF;
+    width:7%;
+    height:6%;
+    position:absolute;
+}
+.sakuraline{
+    background-color: rgb(39, 46, 87);
+    width:7%;
+    height:1%;
+    position:absolute;
+    z-index: 4;
+}
+.sakurapetals{
+    background-color: #33006F;
+    width:2%;
+    height:1%;
+    position:absolute;
+    z-index:2;
+}
+.petal1{
+    clip-path: polygon(14% 87%, 87% 87%, 100% 100%, 0% 100%);
+    background-color: #daccff;
+    position:absolute;
+    z-index:3;
+    top: 10%;
+    left:35%;
+    width: 30%;
+    height: 40%;
+    
+}
+.petallinebreaker{
+    background-color: #CCCCFF;
+    position:absolute;
+    width: 8%;
+    height: 2%;
+    top: 44.84%;
+    left: 40.5%;
+    z-index:2;
+}
+.wood{
+    background-color: rgb(5, 4, 87);
+    position:absolute;
+    width: 1%;
+    height: 5%;
+    top: 23.3%;
+    left:50%;
+    z-index: 7;
+}
+.wood1{
+    
+    background-color: rgb(5, 4, 87);
+    position:absolute;
+    width:1%; height: 5%; top: 17.4%; left:50%;
+}
+.wood2{
+    
+    background-color: rgb(5, 4, 87);
+    position:absolute;
+    width:1%; height: 5%; top: 11.7%; left:50%;
+}
+.branches{
+    background-color: rgb(5, 4, 87);
+    position:absolute;
+    width: 0.5%;
+    height: 7%;
+    
+}
+.branchedge{
+    background-color: rgb(5, 4, 87);
+    position:absolute;
+    clip-path: polygon(0 49%, 100% 81%, 100% 26%);
+    width: 2%;
+    height: 2%;
+    z-index: 8;
+
+}
+.leave{
+    clip-path: polygon(55% 5%, 56% 5%, 64% 30%, 55% 32%, 46% 29%);
+    background-color: #01796F;
+    width: 10%;
+    height:30%;
+    
+    position:absolute;
+}
+
+.flocenter{
+    background-color: #01eeff;
+    position:absolute;
+    width: 2%;
+    height: 4%;
+    border-radius: 50%;
+    bottom: 11.5%;
+    left: 11.5%;
+    z-index: 11;
+}
+
+.flowerpetal{
+    background-color: #002387;
+    position:absolute;
+    z-index: 9;
+    width: 6%;
+    height: 10%;
+    bottom: 14%;
+    left: 12.2%;
+    clip-path: ellipse(10% 45% at 58% 50%);
+    
+}
+.flowercenter2{
+    background-color: #0018f1;
+    position:absolute;
+    z-index: 8;
+    width: 3%;
+    height: 6%;
+    bottom: 10.5%;
+    left: 11%;
+    border-radius: 50%;
+}
+.tiltedbox{
+    position:absolute;
+    background-color: rgb(198, 194, 238);
+    z-index: 3;
+    width: 24.5%;
+    height: 27%;
+    bottom: -0.5%;
+    left: 0.2%;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    
+}
+.zagbt{
+    background-color:  #5e76ff;
+    z-index: 1;
+    position: absolute;
+    width: 21%;
+    height: 14%;
+    top: 15%;
+    left: -10.8%;
+    clip-path: polygon(50% 0, 100% 51%, 100% 76%, 50% 27%, 0 73%, 0 50%);
+
+}
+.zagbt2{
+        background-color: #243aff;
+        z-index:1;
+        position: absolute;
+        width: 21%;
+        height: 14%;
+        top: 18.7%;
+        left: -10.8%;
+        clip-path: polygon(50% 0, 100% 51%, 100% 76%, 50% 27%, 0 73%, 0 50%);
+    }
+    .zagbtbelowline{
+        background-color: #120A8F;
+        z-index:0;
+        width:100%;
+        height:8.5%;
+        position:absolute;
+        top: 21%;
+
+    }
+    .trianglecover{
+        z-index: 0;
+        background-color: #120A8F;
+        top:70%;
+        left:0;
+        position: absolute;
+        width: 100%;
+        height: 17%;
+    }
+.triangle{
+    
+    background-color: #243aff;
+    position: absolute;
+    width: 25%;
+    height: 3%;
+    top: 72.5%;
+    left: -2%;
+    
+    z-index:1;
+    transform: rotate(-29deg);
+}
+.rombusflower{
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    background-color: #720e9e;
+    width: 5%;
+    height: 10%;
+    top: 45%;
+    left: 47.555%;
+    position:absolute;
+    z-index: 22;
+}
+.rombusline{
+    background-color: lightblue;
+    position:absolute;
+    z-index:23;
+    width:1%;
+    height:60%;
+    top:20%;
+    left: 50%;
+}
+.snowflake{
+    background-color: lightblue;
+    position:absolute;
+    z-index:23;
+    width:2%;
+    height:10%;
+    top:22%;
+    left: 44%;
+    transform:rotate(-65deg)
+}
+
+
+
+
+
+
+
+
+
